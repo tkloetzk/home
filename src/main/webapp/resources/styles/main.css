@@ -1,0 +1,57 @@
+.homeIcons {
+	width:100%;
+}
+#displayNamesHeader {
+	color: rgb(51, 213, 255);
+	text-align:center;
+	margin-top: 10%;
+}
+.textAlignCentered {
+	text-align:center;
+}
+@media only screen and (max-width: 768px) {
+	.paddingTop5 {
+		padding-top:5%;
+	}
+	.enterDataInput {
+		text-align: center;
+	    font-size: 42px;
+	    width: 58%;
+	    height: 50%;
+	}
+}
+.usernameBox {
+	min-height: 60px;
+	line-height: 65px;
+	background-color: rgb(51, 213, 255);
+	border-style: outset;
+	border-color: white;
+	color:white;
+	font-size: larger;
+	width:250px;
+	margin-bottom:20px;
+}
+#centerUsernameBox {
+	width: 75%;
+	max-width: 375px;
+	margin: 0 auto;
+}
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+	.row {
+		text-align:center;
+	}
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+	.homeIcons {
+		width: 46%
+	}
+}
